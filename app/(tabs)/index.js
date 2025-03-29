@@ -149,6 +149,7 @@ export default function HomeScreen() {
         <View style={styles.bottomNavigationCurve} />
         <TouchableOpacity style={styles.navItem} onPress={() => router.push("/(tabs)/splash")}>
           <Home color="black" size={24} />
+
         </TouchableOpacity>
 
         <TouchableOpacity 
